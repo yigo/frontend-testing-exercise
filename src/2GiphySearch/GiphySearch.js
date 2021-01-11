@@ -6,7 +6,6 @@ const fetchSearch = (q) =>
       params: {
         q,
         api_key: "7jPydoo1ECn0sU8veaQV8W2FSvRVfqcr",
-        limit: 10
       }
     }).then(response => response.data);
 

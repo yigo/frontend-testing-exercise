@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import GiphySearch  from './2GiphySearch/GiphySearch';
+import Hello from "./1Hello/Hello";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <GiphySearch />
+    <Hello />
   </React.StrictMode>,
   document.getElementById('root')
 );
